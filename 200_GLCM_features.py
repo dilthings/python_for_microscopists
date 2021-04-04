@@ -22,7 +22,7 @@ import numpy as np
 
 PATCH_SIZE = 35
 
-image = io.imread('Scratch0.jpg')
+image = io.imread('D:\Dilan\Prg\Python\python_for_microscopists\images\scratch.jpg')
 plt.imshow(image, cmap='gray')
 
 #Full image
@@ -45,7 +45,7 @@ for loc in scratch_locations:
 
 # compute some GLCM properties each patch
 diss_sim = []
-corr = []
+locorr = []
 homogen = []
 energy = []
 contrast = []
